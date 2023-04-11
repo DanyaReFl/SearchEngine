@@ -1,3 +1,5 @@
 cmake-build-debug
 .git
 .idea
+easyloggingpp-master
+nlohmann_json
