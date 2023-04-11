@@ -1,0 +1,15 @@
+#!/bin/bash
+  
+for n in {1..15}
+do 
+if [ $n < 10 ] 
+then 
+   touch "file00${n}.txt"
+elif [ $n > 9 ] && [ $n < 99 ] 
+then 
+   touch "file0${n}.txt"
+else 
+   touch "file${n}.txt"
+fi	
+done 
+chmod 766 *
