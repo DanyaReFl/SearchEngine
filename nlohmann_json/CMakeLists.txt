@@ -57,7 +57,7 @@ endif ()
 ##
 include(GNUInstallDirs)
 
-set(NLOHMANN_JSON_TARGET_NAME               ${PROJECT_NAME})
+set(NLOHMANN_JSON_TARGET_NAME               ${PROJECT_NAME} ../header/InvertedIndex.h ../header/SearchServer.h)
 set(NLOHMANN_JSON_CONFIG_INSTALL_DIR        "${CMAKE_INSTALL_DATADIR}/cmake/${PROJECT_NAME}" CACHE INTERNAL "")
 set(NLOHMANN_JSON_INCLUDE_INSTALL_DIR       "${CMAKE_INSTALL_INCLUDEDIR}")
 set(NLOHMANN_JSON_TARGETS_EXPORT_NAME       "${PROJECT_NAME}Targets")
@@ -100,7 +100,7 @@ endif()
 ## TARGET
 ## create target and add include path
 ##
-add_library(${NLOHMANN_JSON_TARGET_NAME} INTERFACE)
+add_library(${NLOHMANN_JSON_TARGET_NAME} INTERFACE ../test/test.cpp)
 add_library(${PROJECT_NAME}::${NLOHMANN_JSON_TARGET_NAME} ALIAS ${NLOHMANN_JSON_TARGET_NAME})
 if (${CMAKE_VERSION} VERSION_LESS "3.8.0")
     target_compile_features(${NLOHMANN_JSON_TARGET_NAME} INTERFACE cxx_range_for)

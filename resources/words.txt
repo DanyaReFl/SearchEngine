@@ -1,0 +1,79 @@
+( or : 5 ) ( Chicago : 4 ) ( Christina : 8 ) ( Christmas : 5 ) ( Ferris : 4 ) ( Halloween : 4 ) ( He : 17 )
+( Hollywood : 5 ) ( I : 42 ) ( In : 4 ) ( It : 7 ) ( Jack : 4 ) ( Joanne : 6 ) ( Keith : 10 ) 
+( London : 5 ) ( Los : 5 ) ( My : 15 ) ( Rita : 6 ) ( Santa : 5 ) ( She : 7 ) ( Stephanie : 4 ) 
+( The : 19 ) ( Then, : 4 ) ( There : 4 ) ( They : 13 ) ( This : 7 ) ( United : 4 ) ( We : 4 ) 
+( a : 92 ) ( about : 5 ) ( all : 5 ) ( along : 4 ) ( also : 10 ) ( always : 5 ) ( an : 7 ) 
+( and : 104 ) ( are : 28 ) ( as : 8 ) ( at : 10 ) ( be : 7 ) ( beach : 5 ) ( but : 6 ) 
+( by : 13 ) ( can : 11 ) ( children : 4 ) ( city : 5 ) ( customers : 4 ) ( do : 8 ) ( door : 4 ) 
+( each : 4 ) ( eggs : 4 ) ( enjoyed : 5 ) ( famous : 4 ) ( favorite : 5 ) ( few : 4 ) ( foods : 4 ) 
+( for : 24 ) ( found : 4 ) ( from : 9 ) ( fruit : 4 ) ( fruits : 5 ) ( generally : 5 ) ( go : 9 ) 
+( grocery : 8 ) ( guards : 4 ) ( has : 6 ) ( have : 10 ) ( he : 7 ) ( help : 4 ) ( her : 7 ) 
+( his : 5 ) ( home : 4 ) ( house : 6 ) ( in : 65 ) ( including : 5 ) ( individuals : 4 ) ( into : 5 ) 
+( is : 61 ) ( it : 8 ) ( its : 4 ) ( like : 12 ) ( live : 5 ) ( lot : 4 ) ( many : 10 ) 
+( more : 5 ) ( most : 9 ) ( my : 11 ) ( not : 7 ) ( of : 80 ) ( on : 21 ) ( one : 11 ) 
+( or : 23 ) ( other : 12 ) ( park : 4 ) ( placed : 5 ) ( play : 7 ) ( popular : 5 ) ( professionals : 4 ) 
+( purchased : 5 ) ( room : 4 ) ( school. : 4 ) ( she : 8 ) ( simply : 4 ) ( some : 8 ) ( stores : 7 )
+( take : 7 ) ( than : 4 ) ( that : 21 ) ( the : 181 ) ( their : 13 ) ( them : 5 ) ( these : 5 ) 
+( they : 7 ) ( this : 6 ) ( to : 97 ) ( took : 6 ) ( trip : 5 ) ( two : 4 ) ( typically : 6 ) 
+( up : 4 ) ( very : 11 ) ( visit : 6 ) ( visited : 5 ) ( walk : 4 ) ( was : 10 ) ( we : 4 ) 
+( were : 6 ) ( which : 4 ) ( while : 5 ) ( who : 8 ) ( will : 7 ) ( with : 18 ) ( women : 4 ) 
+( work : 4 ) ( year : 6 )
+
+
+/*#include <iostream>
+#include <fstream>
+#include <vector>
+#include <map>
+
+void printCountsWords(std::map<std::string,int>& countsWords){
+    std::ofstream wordsFile("/home/reflex/search_engine/resources/words.txt", std::ios::app);
+    int i (0);
+    for (const auto &it: countsWords) {
+        if (i==7) { wordsFile << std::endl; i=0; };
+        if (it.second>3) {
+            wordsFile << "( " << it.first << " : " << it.second << " ) ";
+            i++;
+        }
+    }
+    wordsFile << std::endl;
+
+}
+
+static std::map<std::string,int> countsWords;
+
+void countsNumbersWords(std::ifstream &file){
+    std::string words;
+    bool newWords{false};
+    while (!file.eof()){
+        file>>words;
+        newWords=false;
+        for (auto& it : countsWords){
+            if (it.first==words){
+                it.second++;
+                newWords=true;
+                break;
+            }
+        }
+        if (!newWords){
+            countsWords.insert(std::make_pair(words,1));
+        }
+    }
+}
+
+
+int main() {
+    std::vector<std::ifstream> file;
+    std::string name;
+    for (int i{1}; i<=15 ; i++){
+        name = "/home/reflex/search_engine/resources/file"+std::to_string(i)+".txt";
+        file.emplace_back(name);
+    }
+    for (auto & it : file){
+        countsNumbersWords(it);
+    }
+    printCountsWords(countsWords);
+
+
+    return 0;
+}*/
+

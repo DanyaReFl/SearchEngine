@@ -3,3 +3,5 @@ cmake-build-debug
 .idea
 easyloggingpp-master
 nlohmann_json
+build
+CMakeLists.txt.user

@@ -1,16 +1,14 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required (VERSION 3.25)
 
-add_executable(GTests
-        test.cpp
-        ${MY_SOURCE_PATH}/InvertedIndex.cpp
-        ${MY_INCLUDE_PATH}/InvertedIndex.h
-        )
+add_executable(GtestTests
+		InvertedIndexTest.cpp
+		SearchServerTest.cpp
+		${MY_SRC_DIR}/InvertedIndex.cpp
+		${MY_SRC_DIR}/ConverterJSON.cpp
+		${MY_SRC_DIR}/SearchServer.cpp
+		)
 
-target_link_libraries(GTests gtest_main)
-
+target_include_directories(GtestTests PUBLIC ${MY_INCLUDE_DIR})
+target_link_libraries(GtestTests nlohmann_json::nlohmann_json GTest::gtest_main)
 include(GoogleTest)
-
-gtest_discover_tests(GTests)
-
-target_include_directories(GTests PUBLIC ${MY_INCLUDE_PATH})
-target_include_directories(GTests PUBLIC ${MY_SOURCE_PATH})
+gtest_discover_tests(GtestTests)

@@ -1,14 +1,17 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.25)
 
-set(JSON_BuildTests OFF CACHE INTERNAL "")
-set(CMAKE_CXX_STANDARD 17)
+add_executable(${PROJECT_NAME}
+        ${MY_SRC_DIR}/main.cpp
+        ${MY_SRC_DIR}/InvertedIndex.cpp
+        ${MY_SRC_DIR}/ConverterJSON.cpp
+        ${MY_SRC_DIR}/SearchServer.cpp
+        ${MY_INCLUDE_DIR}/InvertedIndex.h
+        ${MY_INCLUDE_DIR}/ConverterJSON.h
+        ${MY_INCLUDE_DIR}/SearchServer.h
+        )
 
-add_executable(${PROJECT_NAME} main.cpp ConverterJSON.cpp ../header/ConverterJSON.h)
+target_include_directories(${PROJECT_NAME} PUBLIC ${MY_INCLUDE_DIR})
+target_link_libraries(${PROJECT_NAME} nlohmann_json::nlohmann_json)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE nlohmann_json::nlohmann_json)
 
-enable_testing()
 
-target_link_libraries(search_engine PRIVATE gtest_main)
-include(GoogleTest)
-gtest_discover_tests(search_engine)
