@@ -78,21 +78,17 @@ RESTRICTIONS! The presence of fields is mandatory. The content is no more than 1
     }
 }
 ```
-InvertedIndex - выполняет следующие функции:
-
-получает, подготоваливает и хранит базу текстовых документов,
-индексирует документы, заполняет и хранит базу поисковых индексов документов,
-получает клиентский запрос (отдельное слово) и возвращает список индексов для каждого документа.
-SearchServer - выполняет следующие функции:
-
-получает и подготавливает массив клиентских запросов,
-используя экземпляр InvertedIndex формирует и возращает ранжированный массив релевантных документов.
-/Tests/...
-В папке /Tests сформированы модульные тесты Tests.cpp, использован Google Testing and Mocking Framework с подключением по URL из GitHub.
+InvertedIndex - performs the following functions:
+1)receives, prepares and stores a database of text documents,
+2)indexes documents, fills in and stores a database of search indexes of documents,
+3)receives a client request (a single word) and returns a list of indexes for each document.
+Search Server - performs the following functions:
+1)Receives and prepares an array of client requests,
+using an instance of InvertedIndex generates and returns a ranked array of relevant documents.
 </b></details>
 
 </b></details>
 <details>
 <summary>test</summary><br><b>
-В папке /test сформированы модульные тесты Tests.cpp, использован Google Testing and Mocking Framework с подключением по URL из GitHub. 
+Unit tests are generated in the /test folder, Google Testing and Mocking Framework is used with a URL connection from GitHub.
 </b></details>
