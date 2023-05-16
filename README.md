@@ -56,22 +56,30 @@ ConverterJSON - выполняет следующие функции:
 {
     "answers": {
         "request001": {
-            "result": "true",
-            "relevance": {
-            "docid": 0, “rank”: 0.989,
-            "docid": 1, “rank”: 0.897,
-            "docid": 2, “rank”: 0.750,
-            "docid": 3, “rank”: 0.670,
-            "docid": 4, “rank”: 0.561
-            }
-        },
-        "request002": {
-            "result": "true",
-            "docid": 0, “rank” : 0.769
-            },
-        "request003": {
-            "result": "false"
-            }
+            "relevance": [
+                {
+                    "docid": 1,
+                    "rank": 1.0
+                },
+                {
+                    "docid": 0,
+                    "rank": 0.6111111044883728
+                },
+                {
+                    "docid": 2,
+                    "rank": 0.6111111044883728
+                },
+                {
+                    "docid": 3,
+                    "rank": 0.6111111044883728
+                },
+                {
+                    "docid": 12,
+                    "rank": 0.5555555820465088
+                }
+            ],
+            "result": true
+        }
     }
 }
 ```
