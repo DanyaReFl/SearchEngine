@@ -83,8 +83,8 @@ RESTRICTIONS! The presence of fields is mandatory. The content is no more than 1
 - indexes documents, fills in and stores a database of search indexes of documents
 * receives a client request (a single word) and returns a list of indexes for each document.
 #### Search Server - performs the following functions:
-*Receives and prepares an array of client requests,
-*using an instance of InvertedIndex generates and returns a ranked array of relevant documents.
+* Receives and prepares an array of client requests,
+* using an instance of InvertedIndex generates and returns a ranked array of relevant documents.
 </b></details>
 
 </b></details>
