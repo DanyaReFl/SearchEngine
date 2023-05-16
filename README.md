@@ -1,6 +1,6 @@
 <h1 align="center">SearchEngine</h1><br>
 
-<img src= "https://simpleicons.org/?q=c%2B%2B" />
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/DanyaReFl/SearchEngine/total">
 
 
 
