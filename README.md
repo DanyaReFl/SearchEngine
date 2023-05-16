@@ -8,3 +8,7 @@ Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 + Search results are ranked, sorted and given to the user.
 + At the end, the program generates a file answers.json, writes the search results into it.
 ## 2. Tech
++ [C++17](https://en.cppreference.com/w/cpp/17)
++ [CMake 3.25](https://cmake.org/cmake/help/latest/release/3.25.html)
++ [Nlohmann JSON](https://github.com/nlohmann/json)
++ [GoogleTest](https://github.com/google/googletest)
