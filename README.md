@@ -35,7 +35,7 @@ Reads data from JSON, processes data from JSON format, generates responses in JS
     ]
 }
 ```
-ОГРАНИЧЕНИЯ! Наличие полей обязательно. Контроль совпадения версий [config.json][https://github.com/DanyaReFl/SearchEngine/blob/master/json_files/config.json] и проекта. Содержимое - каждый текстовый файл состоит не более чем из 1.000 слов, с не более чем 100 символами в каждом слове. Программа обрабатывает соответствующие исключения. Расположение файла - каталог с .exe
+RESTRICTIONS! The presence of fields is mandatory. Control of the match of config versions.json and the project. Content - Each text file consists of no more than 1,000 words, with no more than 100 characters in each word. The program handles the corresponding exceptions. File location - directory with .exe
 ```json
 {
   "requests":[
@@ -46,7 +46,7 @@ Reads data from JSON, processes data from JSON format, generates responses in JS
       ]
 }
 ```
-ОГРАНИЧЕНИЯ! Наличие полей обязательно. Содержимое - не более чем 1.000 запросов, с не более чем 10 словами в запросе. Программа обрабатывает соответствующие исключения. Расположение файла - каталог с .exe
+RESTRICTIONS! The presence of fields is mandatory. The content is no more than 1,000 queries, with no more than 10 words per query. The program handles the corresponding exceptions. File location - directory with .exe
 ```json
 {
     "answers": {
@@ -78,8 +78,6 @@ Reads data from JSON, processes data from JSON format, generates responses in JS
     }
 }
 ```
-При формировании структуры файла (режим перезапись) используются следующие принципы: отсутствие документов релевантных запросу - ["request0003"], при наличии только одного релевантного документа - ["request0002"], наличие множества релевантных документов - ["request0001"]. Расположение файла - каталог с .exe.
-
 InvertedIndex - выполняет следующие функции:
 
 получает, подготоваливает и хранит базу текстовых документов,
@@ -96,5 +94,5 @@ SearchServer - выполняет следующие функции:
 </b></details>
 <details>
 <summary>test</summary><br><b>
-В папке [/test]{https://github.com/DanyaReFl/SearchEngine/tree/master/test} сформированы модульные тесты Tests.cpp, использован Google Testing and Mocking Framework с подключением по URL из GitHub. 
+В папке /test сформированы модульные тесты Tests.cpp, использован Google Testing and Mocking Framework с подключением по URL из GitHub. 
 </b></details>
