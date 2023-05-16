@@ -17,6 +17,7 @@ Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 <details>
 <summary>Src</summary><br><b>
 The /Src folder contains implementations of the following service classes:
+
 ### `ConverterJSON`
 Convert to json - performs the following functions:
 Reads data from JSON, processes data from JSON format, generates responses in JSON format, uses Open Source JSON for Modern C++ Library Copyright © 2013-2022 Niels Lohmann The following files are used in the work :
