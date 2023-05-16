@@ -1,5 +1,4 @@
 # SearchEngine
-/appveyor/build/:user/:repo
 Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 ## 1. Description
 + In the configuration file [json_files/config.json](https://github.com/DanyaReFl/SearchEngine/blob/master/json_files/config.json) answers, before starting the application, the names of the files that the engine will search for are set.
@@ -26,7 +25,7 @@ ConverterJSON - выполняет следующие функции:
 формирует ответы в формате JSON,
 использует Open Source JSON for Modern C++ Library Copyright © 2013-2022 Niels Lohmann
 В работе используются следующие файлы (тестовые варианты представлены в /JSON...):
-
+```json{
 config.json (шаблон)
 {
   "config": 
@@ -42,6 +41,7 @@ config.json (шаблон)
       "resources/file003.txt",
       "resources/file004.txt"
       ]
+  }
   }
 ОГРАНИЧЕНИЯ! Наличие полей обязательно. Контроль совпадения версий config.json и проекта. Содержимое - каждый текстовый файл состоит не более чем из 1.000 слов, с не более чем 100 символами в каждом слове. Программа обрабатывает соответствующие исключения. Расположение файла - каталог с .exe
 
