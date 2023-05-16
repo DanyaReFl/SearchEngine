@@ -1,7 +1,7 @@
 <h1 align="center">SearchEngine</h1><br>
 
 <h4>
-<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103?style=for-the-badge"" >
+<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103?style=for-the-badge?style=for-the-badge"" >
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanyaReFl/SearchEngine?color=red">
 <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/DanyaReFl/SearchEngine?style=for-the-badge"">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat?style=for-the-badge"">
