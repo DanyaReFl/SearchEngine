@@ -107,4 +107,4 @@ SearchServer - выполняет следующие функции:
 <summary>test</summary><br><b>
 В папке [/test]{https://github.com/DanyaReFl/SearchEngine/tree/master/test} сформированы модульные тесты Tests.cpp, использован Google Testing and Mocking Framework с подключением по URL из GitHub. 
 </b></details>
-
+[Back to top](#readme)
