@@ -1,7 +1,7 @@
 <h1 align="center">SearchEngine</h1><br>
 
 <h4>
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanyaReFl/SearchEngine">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanyaReFl/SearchEngine?color=red">
 <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/DanyaReFl/SearchEngine">
 <h4/>
 
