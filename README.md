@@ -2,6 +2,8 @@
 
 <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/DanyaReFl/SearchEngine/total">
 
+<img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/DanyaReFl/SearchEngine">
+
 
 
 Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
