@@ -1,9 +1,8 @@
 <h1 align="center">SearchEngine</h1><br>
+
 <h2>
 <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/DanyaReFl/SearchEngine/total">
-
 <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/DanyaReFl/SearchEngine">
-
 <h2/>
 
 Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
