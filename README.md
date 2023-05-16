@@ -26,24 +26,23 @@ ConverterJSON - выполняет следующие функции:
 использует Open Source JSON for Modern C++ Library Copyright © 2013-2022 Niels Lohmann
 В работе используются следующие файлы (тестовые варианты представлены в /JSON...):
 ```json
-  {
-config.json (шаблон)
+{
+config.json
 {
   "config": 
-    {
+      {
       "name": "SkillboxSearchEngine",
       "version": "1.0.1",
       "max_responses": 5
       },
-  "files":
-    [
+  "files":[
       "resources/file001.txt",
       "resources/file002.txt",
       "resources/file003.txt",
       "resources/file004.txt"
       ]
 }
-  }
+}
 ```
 ОГРАНИЧЕНИЯ! Наличие полей обязательно. Контроль совпадения версий config.json и проекта. Содержимое - каждый текстовый файл состоит не более чем из 1.000 слов, с не более чем 100 символами в каждом слове. Программа обрабатывает соответствующие исключения. Расположение файла - каталог с .exe
 ```json{
