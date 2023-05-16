@@ -15,7 +15,7 @@ Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 ## 3. Project components and implementation
 </b></details>
 <details>
-<summary>Src</summary><br><b>
+<summary>### Src</summary><br><b>
 The /Src folder contains implementations of the following service classes:
 Convert to json - performs the following functions:
 
@@ -91,6 +91,6 @@ Performs the following functions:
 
 </b></details>
 <details>
-<summary>test</summary><br><b>
+<summary>### Test</summary><br><b>
 Unit tests are generated in the /test folder, Google Testing and Mocking Framework is used with a URL connection from GitHub.
 </b></details>
