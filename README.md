@@ -99,4 +99,5 @@ Unit tests are generated in the /test folder, Google Testing and Mocking Framewo
 
 ## 4. Launch of the project
 
+[Скачиваем архив с проектом на Ваш ПК](https://github.com/DanyaReFl/SearchEngine/archive/refs/heads/master.zip) или клонированируем репозиторий коммандой:
 `git clone https://github.com/DanyaReFl/SearchEngine`
