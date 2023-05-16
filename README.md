@@ -15,7 +15,7 @@ Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 ## 3. Project components and implementation
 </b></details>
 <details>
-<summary>## /Src</summary><br><b>
+<summary>/Src</summary><br><b>
 В папке /Src собраны реализации следующих сервисных классов:
 
 ConverterJSON - выполняет следующие функции:
