@@ -5,6 +5,7 @@
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanyaReFl/SearchEngine?color=red">
 <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/DanyaReFl/SearchEngine">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DanyaReFl/SearchEngine">
 <h4/>
 
 Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
