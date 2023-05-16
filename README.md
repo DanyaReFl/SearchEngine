@@ -7,3 +7,4 @@ Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 + The request is converted into a list of unique words. Compiles a list of documents that contain these words.
 + Search results are ranked, sorted and given to the user.
 + At the end, the program generates a file answers.json, writes the search results into it.
+## 2. Tech
