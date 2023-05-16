@@ -5,8 +5,7 @@
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanyaReFl/SearchEngine?style=for-the-badge">
 <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/DanyaReFl/SearchEngine?style=for-the-badge"">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DanyaReFl/SearchEngine?style=for-the-badge"">
-<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/DanyaRefl/SearchEngine?style=for-the-badge"">
-<img alt="Factorio Mod Portal factorio versions" src="https://img.shields.io/factorio-mod-portal/factorio-version/rso-mod?style=for-the-badge">            
+<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/DanyaRefl/SearchEngine?style=for-the-badge"">         
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">                                                                                                                   
 <h4/>
 
