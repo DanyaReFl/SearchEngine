@@ -1,4 +1,5 @@
 # SearchEngine
+?style=for-the-badge&logo=appveyor
 Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 ## 1. Description
 + In the configuration file [json_files/config.json](https://github.com/DanyaReFl/SearchEngine/blob/master/json_files/config.json) answers, before starting the application, the names of the files that the engine will search for are set.
@@ -107,4 +108,3 @@ SearchServer - выполняет следующие функции:
 <summary>test</summary><br><b>
 В папке [/test]{https://github.com/DanyaReFl/SearchEngine/tree/master/test} сформированы модульные тесты Tests.cpp, использован Google Testing and Mocking Framework с подключением по URL из GitHub. 
 </b></details>
-[Back to top](#readme)
