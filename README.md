@@ -1,9 +1,7 @@
 # SearchEngine
-____
-Search Engine
 What is a Search Engine?
 Search Engine it's a console application, searching and having the ability to configure through files of the format JSON
-
+____
 What's a stack of technologies used?
 In the Search Engine project, we use the following list of the technologies:
 C++20
