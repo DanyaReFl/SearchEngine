@@ -96,4 +96,5 @@ Performs the following functions:
 Unit tests are generated in the /test folder, Google Testing and Mocking Framework is used with a URL connection from GitHub.
 </b></details>
 ## 4. Launch of the project
+
 `git clone https://github.com/DanyaReFl/SearchEngine`
