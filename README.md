@@ -1,5 +1,34 @@
 <h1 align="center">SearchEngine</h1><br>
 
+
+     </h2>
+
+<p align="center">
+  
+<img src="https://img.shields.io/appveyor/build/DanyaReFl/SearchEngine">
+
+<img src="https://img.shields.io/badge/made%20by-silentlad-blue.svg" >
+
+<img src="https://img.shields.io/badge/vue-2.2.4-green.svg">
+
+<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
+
+<img src="https://beerpay.io/silent-lad/VueSolitaire/badge.svg?style=flat">
+
+<img src="https://img.shields.io/github/stars/silent-lad/VueSolitaire.svg?style=flat">
+
+<img src="https://img.shields.io/github/languages/top/silent-lad/VueSolitaire.svg">
+
+<img src="https://img.shields.io/github/issues/silent-lad/VueSolitaire.svg">
+
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+</p>
+
+<img src="./readme_assets/h2.png" width="100%">
+
+<h2 align="center"><a  href="https://solitairevue.firebaseapp.com">Live Demo</a></h2>
+
+
 Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 ## 1. Description
 + In the configuration file [json_files/config.json](https://github.com/DanyaReFl/SearchEngine/blob/master/json_files/config.json) answers, before starting the application, the names of the files that the engine will search for are set.
