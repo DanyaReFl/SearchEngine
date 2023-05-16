@@ -16,15 +16,10 @@ Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 </b></details>
 <details>
 <summary>Src</summary><br><b>
-В папке /Src собраны реализации следующих сервисных классов:
+The /Src folder contains implementations of the following service classes:
+Convert to json - performs the following functions:
 
-ConverterJSON - выполняет следующие функции:
-
-считывает данные из JSON,
-обрабатывает данные из формата JSON,
-формирует ответы в формате JSON,
-использует Open Source JSON for Modern C++ Library Copyright © 2013-2022 Niels Lohmann
-В работе используются следующие файлы (тестовые варианты представлены в /JSON...):
+Reads data from JSON, processes data from JSON format, generates responses in JSON format, uses Open Source JSON for Modern C++ Library Copyright © 2013-2022 Niels Lohmann The following files are used in the work :
 ```json
 {
     "config": {
