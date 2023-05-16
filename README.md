@@ -38,7 +38,6 @@ ConverterJSON - выполняет следующие функции:
       "resources/file002.txt",
       "resources/file003.txt",
       "resources/file004.txt"
-      ........................
     ]
 }
 ```
