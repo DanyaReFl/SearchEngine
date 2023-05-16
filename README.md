@@ -15,7 +15,7 @@ Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 ## 3. Project components and implementation
 </b></details>
 <details>
-<summary>/Src</summary><br><b>
+<summary>Src</summary><br><b>
 В папке /Src собраны реализации следующих сервисных классов:
 
 ConverterJSON - выполняет следующие функции:
@@ -100,5 +100,11 @@ SearchServer - выполняет следующие функции:
 используя экземпляр InvertedIndex формирует и возращает ранжированный массив релевантных документов.
 /Tests/...
 В папке /Tests сформированы модульные тесты Tests.cpp, использован Google Testing and Mocking Framework с подключением по URL из GitHub.
+</b></details>
+
+</b></details>
+<details>
+<summary>Src</summary><br><b>
+В папке [/test]{https://github.com/DanyaReFl/SearchEngine/tree/master/test} сформированы модульные тесты Tests.cpp, использован Google Testing and Mocking Framework с подключением по URL из GitHub. 
 </b></details>
 
