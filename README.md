@@ -8,8 +8,7 @@
 <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/DanyaRefl/SearchEngine?style=for-the-badge"">         
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">                                                                                                                   
 <h4/>
-                                                                              
-<br/>
+<br>
 
 Final work on the course "C++ Developer" from [Skillbox](https://skillbox.ru).
 ## 1. Description
