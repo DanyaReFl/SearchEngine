@@ -1,7 +1,7 @@
 <h1 align="center">SearchEngine</h1><br>
 
 
-     </h2>
+</h2>
 
 <p align="center">
   
