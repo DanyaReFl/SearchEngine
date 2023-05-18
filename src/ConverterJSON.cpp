@@ -1,7 +1,13 @@
+//-----------------------------------------------------------------------
+//  Header      : ConverterJSON.cpp
+//  Created     : 08.05.2023
+//  Modified    : 18.05.2023
+//  Author      : Danilov Daniil
+//-----------------------------------------------------------------------
+
 #include "ConverterJSON.h"
 
-
-//checking configurations
+///returns "true" if the file was read and corresponds to the specification
 bool ConverterJSON::LoadConfig(){
     std::ifstream config_file("../../json_files/config.json");
 
@@ -41,7 +47,7 @@ bool ConverterJSON::LoadConfig(){
     return true;
 }
 
-//Returns the text of the "config" file
+
 std::vector<std::string> ConverterJSON::GetTextDocuments() {
     auto response_text = std::vector<std::string>();
 
@@ -54,17 +60,17 @@ std::vector<std::string> ConverterJSON::GetTextDocuments() {
     return response_text;
 }
 
-//The function returns the value of the number of responses to the request
+
 int unsigned long ConverterJSON::GetResponsesLimit() const {
     return configJson_.config.m_max_responses;
 }
 
-//Returns the text of the "requests file
+
 std::vector<std::string> ConverterJSON::GetRequests() const {
     return requestJson_.m_requests;
 }
 
-//Put in the answers file.json search query results
+
 void ConverterJSON::PutAnswers(const std::vector<std::vector<RelativeIndex>>& answers_relative) {
     
     nlohmann::json answer_json;
@@ -99,7 +105,7 @@ void ConverterJSON::PutAnswers(const std::vector<std::vector<RelativeIndex>>& an
     answer_file << insert_json_file.dump(4);
 }
 
-//downloading the request file
+///Reads requests into the structure (requestJson_)
 bool ConverterJSON::LoadRequests(){
     auto requests_file = std::ifstream("../../json_files/requests.json");
 

@@ -1,3 +1,10 @@
+//-----------------------------------------------------------------------
+//  Header      : SearchServerTest.cpp
+//  Created     : 11.05.2023
+//  Modified    : 18.05.2023
+//  Author      : Danilov Daniil
+//-----------------------------------------------------------------------
+
 #include "gtest/gtest.h"
 #include "SearchServer.h"
 

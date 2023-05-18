@@ -1,7 +1,14 @@
+//-----------------------------------------------------------------------
+//  Header      : SearchServer.cpp
+//  Created     : 03.05.2023
+//  Modified    : 18.05.2023
+//  Author      : Danilov Daniil
+//-----------------------------------------------------------------------
+
 #include "SearchServer.h"
 #include "ConverterJSON.h"
 
-//Method of processing search queries
+
 std::vector<std::vector<RelativeIndex>> SearchServer::search(const std::vector<std::string> &queries_input) {
 
     auto answers = std::vector<std::vector<RelativeIndex>>();

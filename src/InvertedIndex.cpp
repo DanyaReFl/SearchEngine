@@ -1,8 +1,14 @@
+//-----------------------------------------------------------------------
+//  Header      : InvertedIndex.cpp
+//  Created     : 03.05.2023
+//  Modified    : 18.05.2023
+//  Author      : Danilov Daniil
+//-----------------------------------------------------------------------
+
 #include "InvertedIndex.h"
 
 std::mutex mutex_index;
 
-//Update or fill in the database of documents for which we will search
 void InvertedIndex::UpdateDocumentBase(const std::vector<std::string>& input_docs){
 
     if (input_docs.empty()){
@@ -26,8 +32,9 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string>& input_doc
 
 }
 
-//the method indexes the elements and counts the number
+
 void InvertedIndex::indexTheFile(const std::string& oneTextFile, size_t docId){
+
     std::map<std::string, Entry> fileFreqDirectory;
     Entry entry{};
     entry.m_doc_id = docId;
@@ -57,8 +64,9 @@ void InvertedIndex::indexTheFile(const std::string& oneTextFile, size_t docId){
     }
 }
 
-//The method determines the number of occurrences of the word "word" in the downloaded database of documents
+
 std::vector<Entry> InvertedIndex::GetWordCount(const std::string &word){
+
     if (indexingIsOngoing_){
         std::cout << "Index is ongoing , please repeat the request later.\n";
         return{};
