@@ -8,7 +8,10 @@
 #include "SearchServer.h"
 #include "ConverterJSON.h"
 
-
+/**
+* @param queries_input search queries taken from a file request.json
+* @return returns a sorted list of relevant responses for the given queries
+*/
 std::vector<std::vector<RelativeIndex>> SearchServer::search(const std::vector<std::string> &queries_input) {
 
     auto answers = std::vector<std::vector<RelativeIndex>>();

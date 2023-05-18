@@ -9,6 +9,7 @@
 
 std::mutex mutex_index;
 
+/// @param input_docs document content
 void InvertedIndex::UpdateDocumentBase(const std::vector<std::string>& input_docs){
 
     if (input_docs.empty()){
@@ -32,7 +33,10 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string>& input_doc
 
 }
 
-
+/**
+* @param fileContent file text
+* @param docId index
+*/
 void InvertedIndex::indexTheFile(const std::string& oneTextFile, size_t docId){
 
     std::map<std::string, Entry> fileFreqDirectory;
@@ -64,7 +68,11 @@ void InvertedIndex::indexTheFile(const std::string& oneTextFile, size_t docId){
     }
 }
 
-
+/**
+* @param word words for determining quantity
+* @return Returns id and their number in
+* the form of the structure "Entry"
+*/
 std::vector<Entry> InvertedIndex::GetWordCount(const std::string &word){
 
     if (indexingIsOngoing_){

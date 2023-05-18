@@ -40,8 +40,8 @@ public:
     ~ConverterJSON() = default;
 
     /**
-    * The method reads and checks the "json_files/config.json" file so that it conforms to the specification
-    * @return returns true if the file meets the specification and it was possible to write
+    * The method reads and checks the "json_files/config.json"
+    * file so that it conforms to the specification
     */
     bool LoadConfig();
 

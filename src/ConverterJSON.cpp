@@ -7,7 +7,10 @@
 
 #include "ConverterJSON.h"
 
-///returns "true" if the file was read and corresponds to the specification
+/**
+* @return returns true if the file meets the
+* specification and it was possible to write
+*/
 bool ConverterJSON::LoadConfig(){
     std::ifstream config_file("../../json_files/config.json");
 
@@ -47,7 +50,10 @@ bool ConverterJSON::LoadConfig(){
     return true;
 }
 
-
+/**
+* @return Returns a list with the contents of
+* the files listed in json_files/config.json
+*/
 std::vector<std::string> ConverterJSON::GetTextDocuments() {
     auto response_text = std::vector<std::string>();
 
@@ -60,17 +66,19 @@ std::vector<std::string> ConverterJSON::GetTextDocuments() {
     return response_text;
 }
 
-
+/// @return max responses
 int unsigned long ConverterJSON::GetResponsesLimit() const {
     return configJson_.config.m_max_responses;
 }
 
-
+/// @return returns a list of requests from the requests.json file
 std::vector<std::string> ConverterJSON::GetRequests() const {
     return requestJson_.m_requests;
 }
-
-
+/**
+* @param answers as a parameter, we take a set of all
+* responses to queries with their rank and number
+*/
 void ConverterJSON::PutAnswers(const std::vector<std::vector<RelativeIndex>>& answers_relative) {
     
     nlohmann::json answer_json;
@@ -105,7 +113,7 @@ void ConverterJSON::PutAnswers(const std::vector<std::vector<RelativeIndex>>& an
     answer_file << insert_json_file.dump(4);
 }
 
-///Reads requests into the structure (requestJson_)
+/// @return Reads requests into the structure (requestJson_)
 bool ConverterJSON::LoadRequests(){
     auto requests_file = std::ifstream("../../json_files/requests.json");
 
